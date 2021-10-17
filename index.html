@@ -1,12 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
     <title>Husseini Mudi</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary"
+        id="navbar"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="">Husseini Mudi | +2347051267253</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#welcome"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">contact</a>
+              </li>
+            </ul>
+            <div class="col-md-8 text-end">
+              <button type="button" class="btn btn-outline-light me-2">
+                Send Email
+              </button>
+              <a
+                href="https://github.com/profsain"
+                target="_blank"
+                class="btn btn-light"
+                id="profile-link"
+                >GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <!-- Main section -->
+      <main class="main">
+        <!-- About me section -->
+        <div class="section" id="welcome">
+          <img
+            src="images/profile-pic.jpg"
+            alt="Husseini Mudi with smilling face"
+            id="profile-img"
+          />
+          <h1 id="title">Husseini Mudi Portfolio</h1>
+          <h2 class="section-title">A Fullstack React Web Developer</h2>
+          <p class="intro-text">
+            As someone who enjoys finding solutions to difficult problems,
+            Software development was an obvious path.
+          </p>
+          <p class="intro-text">
+            I am a self-taught Web Developer on a lifelong journey to become
+            world-class Software Engineer. I’ve always found coding intuitive
+            and have pushed myself to learn the most effective ways to achieve a
+            result. I’m a fast learner and can quickly integrate into a team so
+            I can provide value to the company and the customers.
+          </p>
+        </div>
+
+        <!-- skill set section -->
+        <div class="section" id="skills">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-text">
+            Acquiring new skills as new challenges provide me the opportunity to
+            keep learning
+          </p>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img
+                    src="images/html.png"
+                    class="card-img-top"
+                    alt="HTML logo"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">
+                      HTML stands for Hyper Text Markup Language · HTML is the
+                      standard markup language for creating Web pages · HTML
+                      describes the structure of a Web page
+                    </p>
+                    <a
+                      href="https://www.w3schools.com/html/html_intro.asp"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img
+                    src="images/css.png"
+                    class="card-img-top"
+                    alt="CSS logo"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-text">
+                      CSS stands for Cascading Style Sheets, it's the language
+                      we use to style an HTML document. CSS describes how HTML
+                      elements should be displayed
+                    </p>
+                    <a
+                      href="https://www.w3schools.com/css/css_intro.asp"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img
+                    src="images/javascript.png"
+                    class="card-img-top"
+                    alt="JavaScript logo"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">
+                      JavaScript (JS) is a lightweight, interpreted, or
+                      just-in-time compiled programming language with
+                      first-class functions. JS add interectivity to a web page.
+                    </p>
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="card">
+                  <img
+                    src="images/bootstrap.jpg"
+                    class="card-img-top"
+                    alt="bootstrap logo"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">
+                      Bootstrap is the world most popular front-end framework.
+                      It's help to quickly design and customize mobile-first
+                      websites.
+                    </p>
+                    <a
+                      href="https://getbootstrap.com/"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project list section -->
+        <div class="section" id="projects">
+          <h2 class="section-title">Project Done</h2>
+          <p class="section-text">
+            The best way to learn is by doing. Putting my skills to practices
+            gives me more confidence and new challenges to keep learning
+          </p>
+
+          <div class="container-fluid">
+            <!-- row 1 -->
+            <div class="row">
+              <div class="col-lg-6 project-tile">
+                <div class="card">
+                  <img
+                    src="images/My Portfolio.JPG"
+                    class="card-img-top"
+                    alt="Husseini Mudi Portfolio website screenshort"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">My Portfolio</h5>
+                    <p class="card-text">
+                      A personal portfolio website build with HTML, CSS,
+                      Bootstrap and JavaScript.
+                    </p>
+                    <a href="#" target="_blank" class="btn btn-primary"
+                      >GitHub page</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 project-tile">
+                <div class="card">
+                  <img
+                    src="images/tin-dog-clone.JPG"
+                    class="card-img-top"
+                    alt="Tin-Dog Landing page clone website screenshort"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Tin-Dog Bootstrap Clone</h5>
+                    <p class="card-text">
+                      A mobile responsive Tin-Dog landing page clone build with
+                      Bootstrap, HTML and CSS
+                    </p>
+                    <a
+                      href="https://profsain.github.io/Tin-Dog-Bootstrap_clone/"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >GitHub Page</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- row 2 -->
+            <div class="row">
+              <div class="col-lg-6 project-tile">
+                <div class="card">
+                  <img
+                    src="images/react-technical-docs.JPG"
+                    class="card-img-top"
+                    alt="React technical documentation website screenshort"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">React Technical Doc.</h5>
+                    <p class="card-text">
+                      Free Code Camp Technical Documentation project.
+                    </p>
+                    <a
+                      href=" https://profsain.github.io/Technical-Documentation/"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >GitHub Page</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 project-tile">
+                <div class="card">
+                  <img
+                    src="images/startup-landing-page.JPG"
+                    class="card-img-top"
+                    alt="startup landing page website screenshort"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Startup Landing Page</h5>
+                    <p class="card-text">
+                      Startup landing page build for Enricher Fintech. HTML,
+                      CSS3, Bootstrap
+                    </p>
+                    <a
+                      href="https://profsain.github.io/startup-landing-page/"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >GitHub Page</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- row 3 -->
+            <div class="row">
+              <div class="col-lg-6 project-tile">
+                <div class="card">
+                  <img
+                    src="images/bill-gate-wiki.JPG"
+                    class="card-img-top"
+                    alt="Bill Gate Wiki website screenshort"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Bill Gate Wiki</h5>
+                    <p class="card-text">
+                      A simple wiki website page for Bill Gate.
+                    </p>
+                    <a
+                      href="https://profsain.github.io/Billgate-wiki/"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >GitHub Page</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 project-tile">
+                <div class="card">
+                  <img
+                    src="images/survey-form.JPG"
+                    class="card-img-top"
+                    alt="Survey form web page screenshort"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">FCC Survey Form</h5>
+                    <p class="card-text">
+                      Working with form element. FCC survey form project.
+                    </p>
+                    <a
+                      href=" https://profsain.github.io/FCC_Survey_Form/"
+                      target="_blank"
+                      class="btn btn-primary"
+                      >GitHub Page</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact section -->
+        <div class="section" id="contact">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-text">
+            I'm available on the following platform. Click and connect with me!
+          </p>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-3">
+                <a href="https://github.com/profsain" target="_blank"
+                  ><img src="images/gitlogo.png" alt="github logo"
+                /></a>
+              </div>
+
+              <div class="col-3">
+                <a href="https://www.linkedin.com/in/profsain/" target="_blank"
+                  ><img src="images/linkedin.png" alt="linkedin logo"
+                /></a>
+              </div>
+              <div class="col-3">
+                <a href="#" target="_blank"
+                  ><img src="images/twitter.png" alt="twitter logo"
+                /></a>
+              </div>
+              <div class="col-3">
+                <a href="https://medium.com/@profsainhusain" target="_blank"
+                  ><img src="images/medium.png" alt="github logo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
